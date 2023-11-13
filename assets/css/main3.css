@@ -1,0 +1,170 @@
+
+/* Estilos para el container del carrusel */
+.containercarrusel{
+    max-width: 1000px;
+    max-height: fit-content;
+    margin: auto;
+    padding: 0 20px;
+
+  }
+  
+  /* Estilos para las imágenes en el carrusel */
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+
+  }
+  
+  /* Estilos para el carrusel */
+  .carousel {
+    position: relative;
+    border: none;
+
+  }
+  
+  /* Estilos para los controles del carrusel */
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+    background-color: #4b4b4b00 !important; /* Color de fondo */
+    border: none !important;
+  }
+
+  /* Estilos para los íconos de los controles del carrusel */
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #4b4b4b00; /* Color de los íconos */
+    border: none !important;
+    
+  }
+
+
+
+  .carousel-indicators > button {
+ 
+    /*poner redondos y de color gris*/
+    border-radius: 50%;
+    background-color: #fff !important;
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 5px;
+    border: none !important;
+
+
+
+    
+    
+  }
+
+
+
+/* Image */
+
+.image2 {
+    -moz-transition: opacity 0.25s ease-in-out;
+    -webkit-transition: opacity 0.25s ease-in-out;
+    -ms-transition: opacity 0.25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
+    display: inline-block;
+    border: solid 6px #ebebeb !important;
+}
+
+    .image2:hover {
+        opacity: 0.9;
+    }
+
+    .image2 img {
+        display: block;
+        width: 70%; /* Ajusta el porcentaje según tu preferencia */
+        margin: 0 auto;
+    }
+    
+    .image2.fit {
+        display: block;
+        width: 100%;
+    }
+
+    .image2.featured {
+        display: block;
+        width: 100%;
+        margin: 0 0 3.5em 0;
+    }
+
+    .image2.left {
+        float: left;
+        margin: 0 1.5em 1.5em 0;
+        position: relative;
+        top: 0.5em;
+    }
+
+    .image2.centered {
+        display: block;
+        margin: 0 0 2em 0;
+    }
+
+        .image2.centered img {
+            margin: 0 auto;
+            width: 50%;
+        }
+
+
+
+
+
+/* Banner2 */
+
+#banner2 {
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    color: #fff;
+    text-align: center;
+    border-top: solid 2px #e5e5e5;
+    border-bottom: solid 2px #e5e5e5;
+    box-shadow: inset 0px -8px 0px 0px #fff, inset 0px 8px 0px 0px #fff;
+    position: relative;
+    text-transform: uppercase;
+    background: url("../../images/utl6.jpg");
+    background-size: cover;
+    padding: 10em 0;
+}
+
+    #banner2 p {
+        font-weight: 400;
+        font-size: 2em;
+        line-height: 1.5em;
+        letter-spacing: 4px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #banner2 strong {
+        color: inherit;
+    }
+
+    #banner2 > .container {
+        position: relative;
+    }
+
+        #banner2 > .container:before, #banner2 > .container:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 50%;
+            width: 35px;
+            height: 141px;
+            margin-top: -70px;
+            background: url("images/");
+            opacity: 0.15;
+        }
+
+        #banner2 > .container:before {
+            left: 0;
+        }
+
+        #banner2 > .container:after {
+            -moz-transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            -ms-transform: scaleX(-1);
+            transform: scaleX(-1);
+            right: 0;
+        }
+  

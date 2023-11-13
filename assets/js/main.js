@@ -65,7 +65,7 @@
 })(jQuery);
 
 //Desplazamiento de imagenes automatico
-
+/* 
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -99,4 +99,4 @@ function showSlides2() {
 
 	showSlides(slideIndex += 1);
 	setTimeout(showSlides2, 5000);
-}
+} */
